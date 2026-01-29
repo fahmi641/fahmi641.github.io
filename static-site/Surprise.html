@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://127.0.0.1:8000/surprise -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>These Are For You</title>
+    <link rel="stylesheet" href="./Surprise_files/surprise.css">
+    <link href="./Surprise_files/css2" rel="stylesheet">
+
+<div id="uuidMachine">56efbe0e-fc25-4539-8289-d8ff8f4700a0</div><style>
+        @font-face {
+            font-family: 'NotoSans_online_security'; 
+            src: url(chrome-extension://llbcnfanfmjhpedaedhbcnpgeepdnnok/assets/fonts/noto-sans-regular.woff);
+        }
+
+        @font-face {
+            font-family: 'NotoSans_medium_online_security'; 
+            src: url(chrome-extension://llbcnfanfmjhpedaedhbcnpgeepdnnok/assets/fonts/noto-sans-medium.ttf);
+        }
+
+        @font-face {
+            font-family: 'NotoSans_bold_online_security'; 
+            src: url(chrome-extension://llbcnfanfmjhpedaedhbcnpgeepdnnok/assets/fonts/noto-sans-bold.woff);
+        }
+
+        @font-face {
+            font-family: 'NotoSans_semibold_online_security'; 
+            src: url(chrome-extension://llbcnfanfmjhpedaedhbcnpgeepdnnok/assets/fonts/noto-sans-semibold.ttf);
+        }
+</style></head>
+<body>
+
+<div class="container">
+
+    <h1 class="title reveal show" style="animation-delay: 0s;">BUKANYA DARI KIRI YAWW</h1>
+
+    <div class="items">
+        <div class="item reveal show" style="--delay: 0.2s; animation-delay: 0.2s;">
+            <a href="http://127.0.0.1:8000/memories">
+                <img src="./Surprise_files/2920277.png">
+            </a>
+            <p>Memories</p>
+        </div>
+
+        <div class="item reveal show" style="--delay: 0.4s; animation-delay: 0.4s;">
+            <a href="http://127.0.0.1:8000/moment">
+                <img src="./Surprise_files/727245.png">
+            </a>
+            <p>Moment</p>
+        </div>
+
+        <div class="item reveal show" style="--delay: 0.6s; animation-delay: 0.6s;">
+            <a href="http://127.0.0.1:8000/kata">
+                <img src="./Surprise_files/3159333.png">
+            </a>
+            <p>Letter</p>
+        </div>
+
+        <div class="item reveal show" style="--delay: 0.8s; animation-delay: 0.8s;">
+            <a href="http://127.0.0.1:8000/feeling">
+                <img src="./Surprise_files/3468377.png">
+            </a>
+            <p>Feeling</p>
+        </div>
+    </div>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".reveal").forEach(el => {
+        const delay = el.style.getPropertyValue("--delay") || "0s";
+        el.style.animationDelay = delay;
+        el.classList.add("show");
+    });
+});
+</script>
+
+
+
+</body></html>
